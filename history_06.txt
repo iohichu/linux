@@ -1,0 +1,48 @@
+   0 ls -a /
+   1 ls -l /bin
+   2 mc
+   3 bg
+   4 ls
+   5 ls -a
+   6 ls -l
+   7 ls -la
+   8 cp --help
+   9 ls -l /opt
+  10 mkdir /opt/test1 /tmp/test2 /var/test3
+  11 touch /opt/test1/1.txt /tmp/test2/2.txt /var/test3/3.txt
+  12 mkdir /etc/test/ivan/123
+  13 mkdir -p /etc/test /etc/test2 /etc/test4
+  14 mkdir /tmp/vasya & touch /tmp/vasya/2.txt ; mkdir /udjfb ; touch fhbjd
+  15 history
+  16 mkdir -p /tmp/ivan
+  17 cat /proc/cpuinfo 
+  18 free
+  19 df 
+  20 cp /tmp /opt
+  21 cp -r /tmp /opt
+  22 mv --help
+  23 cp -R /opt /root
+  24 ls -l /root/
+  25 tree /opt/
+  26 ls -R /opt/
+  27 clear
+  28 mkdir -p /opt/test/ivan
+  29 cd /opt/test/ivan/
+  30 touch fole.txt
+  31 rm fole.txt 
+  32 touch file.txt
+  33 cd
+  34 cp /opt/test/ivan/file.txt /tmp/file2.txt
+  35 rm /opt/test/ivan/file.txt 
+  36 ls -la /tmp
+  37 history
+  38 history > history_06.txt
+  39 ls
+  40 ls -l
+  41 history > readme.txt 
+  42 ls -l
+  43 > readme.txt 
+  44 ls -l
+  45 touch history_06.txt 
+  46 ls -l
+  47 history > history_06.txt 
