@@ -1,0 +1,397 @@
+    1  git--v
+    2   ec2-user@linux.itcareerhub.de
+    3   cd ec2-user@linux.itcareerhub.de
+    4  cd 
+    5  ssh-keygen
+    6  cat .ssh/id_ed25519.pub
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  ssh ec2-user@linux.itcareerhub.de
+   10  pwd
+   11  history
+   12  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/1.txt .
+   13  ls
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  cat .ssh/id_ed2519.pub
+   17  cat .ssh/id_rsa.pub
+   18  cat .ssh/id_rsa.pub
+   19  cat .ssh/id_ed2519.pub
+   20  cd
+   21  cat .ssh/id_ed2519.pub
+   22  ssh ec2-user@linux.itcareerhub.de
+   23  cd
+   24  cat .ssh/id_ed25519.pub
+   25  ssh-ed25519 
+   26  cat .ssh/id_ed25519.pub
+   27  cd
+   28  cat .ssh/id_ed25519.pub
+   29  ssh ec2-user@linux.itcareerhub.de
+   30  exit
+   31  ssh ec2-user@linux.itcareerhub.de
+   32  ssh ec2-user@linux.itcareerhub.de
+   33  ssh ec2-user@linux.itcareerhub.de
+   34  ssh ec2-user@linux.itcareerhub.de
+   35  ssh ec2-user@linux.itcareerhub.de
+   36  ssh ec2-user@linux.itcareerhub.de
+   37  ssh ec2-user@linux.itcareerhub.de
+   38  ssh ec2-user@linux.itcareerhub.de
+   39  echo "# MyFirstRepositoryi" >> README.md
+   40  ls -la
+   41  git init
+   42  ls -la
+   43  clear
+   44  ls -la
+   45  tree git
+   46  ls -la 
+   47  ls -la .git
+   48  md5sum README.md
+   49  git status
+   50  git add .
+   51  git status
+   52  git commit -m "first commit"
+   53  git branch
+   54  branch -M main
+   55  branch -M main
+   56  git branch -M main
+   57  git remote add origin git@github.com:lanovenkyi-web/MyFirstRepositoryi.git
+   58  git remote -v
+   59  git push -u origin main
+   60  vi README.md
+   61  git status
+   62  touch passwords.txt
+   63  git status
+   64  git add README.md 
+   65  git status
+   66  git commit -m " modified" 
+   67  git log
+   68  git push
+   69  git init
+   70  git branch -M main
+   71  ls -l
+   72  git add .
+   73  git status
+   74  git commit -m "added my first file"
+   75  git remote add origin git@github.com:lanovenkyi-web/git_intro.git
+   76  git push -u origin main
+   77  ssh ec2-user@linux.itcareerhub.de
+   78  whereis locate
+   79  whereis tree
+   80  whereis find
+   81  ssh ec2-user@linux.itcareerhub.de
+   82  ssh ec2-user@linux.itcareerhub.de
+   83  cd /opt/01082025-ptm/SEREGA
+   84  cd /tmp/01082025-ptm/SEREGA
+   85  cd /opt/010825-ptm/SEREGA
+   86  cd /tmp/010825-ptm/SEREGA
+   87  cd /010825-ptm/SEREGA
+   88  exit
+   89  git.init
+   90  git init
+   91  date > 1.txt; date >2.txt
+   92  git status
+   93  git add .
+   94  git status
+   95  git rm --cashed 1.txt
+   96  git status
+   97  git rm --cashed 1.txt
+   98  git status
+   99  git rm —cached 1.txt
+  100  git branch -m main
+  101  git remote add origin
+  102  git status
+  103  "git rm --cached 1.txt
+  104  git rm --cached 1.txt
+  105  git status
+  106  git rm --cached 1.txt
+  107  git status
+  108  git commit -m
+  109  git commit -m 2.txt
+  110  git push -u origin mine
+  111  git fetch all
+  112  git remote -v
+  113  git fetch all
+  114  git fetch --all
+  115  git merge origin/main
+  116  git rebase origin/main
+  117  git status
+  118  git log
+  119  git push -u origin main
+  120  git status
+  121  git branch
+  122  git checkout -b gitignore
+  123  git branch
+  124  git log
+  125  nano .gitignore
+  126  git commit - "add gitignor"
+  127  touch smth.bmp
+  128  git status
+  129  git --version
+  130  git switch main
+  131  git init
+  132  git rev--parce -show-topleve
+  133  git rev-parce --show-topleve
+  134  git rev-parse --show-toplevel
+  135  date > 1.txt ; date > 2.txt
+  136  cat.txt ; 2.txt
+  137  cat 1.txt ; 2.txt
+  138  cat 1.txt ; cat 2.txt
+  139  git status
+  140  git add .
+  141  git status
+  142  git rm --cashed 1.txt
+  143  git status
+  144  git rm --cached 1.txt
+  145  git status
+  146  git branch -m main
+  147  git remote add origin git@github.com:lanovenkyi-web/myintrestingRepo.git
+  148  git remote -v
+  149  git status
+  150  git commit -m "add file 2.txt"
+  151  git log
+  152  gi tpush -u origin main
+  153  git push -u origin main
+  154  git fetch all
+  155  git remote -v
+  156  git feech --all
+  157  git fetch --all
+  158  ls -la
+  159  git status
+  160  git merg origin/main
+  161  git merge origin/main
+  162  git rebase origin/main
+  163  ls -la
+  164  git status
+  165  git push -u origin main
+  166  git log
+  167  git branch
+  168  git checkout -b gitignore
+  169  git log
+  170  vi .gitignore
+  171  git status
+  172  git add .
+  173  git commit -m "add gitignore"
+  174  touch 1.bmp
+  175  git status
+  176  git branch
+  177  git log
+  178  git switch main
+  179  git --version
+  180  git branch
+  181  git log
+  182  git merge gitignore
+  183  ls -la
+  184  git status
+  185  git push
+  186  git branch -d gitignore
+  187  git log --oneline
+  188  git log --graph
+  189  git log --oneline --graph
+  190  vi gitignore
+  191  vi .gitignore
+  192  git add .
+  193  git commit -m "changed gitignere"
+  194  git push
+  195  git unit
+  196  git init
+  197  git branch -M main
+  198  git remote add origin git@github.com:lanovenkyi-web/git-branch.git
+  199  git checkout -b
+  200  git checkout -b gitignore
+  201  vi .gitignore
+  202  git commit -m "added gitignore"
+  203  git push -u origin gitignore
+  204  git push -u origin main
+  205  git merge origin/main 
+  206  git push -u origin main
+  207  git fetch --all 
+  208  git merge origin/main  
+  209  git push 
+  210  git remote add origin git@github.com:lanovenkyi-web/git-branch.git
+  211  git push -u origin gitignore
+  212  git push -u origin main
+  213  git commit -m "first commit"
+  214  git push -u origin main
+  215  git push -u origin gitignore
+  216  git init
+  217  git branch -m main
+  218  git remote add origin git@github.com:lanovenkyi-web/git-branch.git
+  219  git checkout -b gitignore
+  220  git init
+  221  exit
+  222  git init
+  223  git branch -m main 
+  224  git merge origin/main  
+  225  git remote add origin git@github.com:lanovenkyi-web/git-branch.git
+  226  git merge origin/main  
+  227  git fetch all
+  228  git fetch --all
+  229  git merge origin/main  
+  230  ls -la
+  231  git checkout -b gitignore
+  232  vi .gitignore
+  233  git log
+  234  git add .
+  235  git commit -m "add .gitignore"
+  236  git push -u origin main
+  237  git switch main 
+  238  git push -u origin gitignore
+  239  git clone git@github.com:lanovenkyi-web/260925.git
+  240  cd 260925
+  241  tree
+  242  ls -Ra
+  243  ls -l
+  244  git checkout -b mytest
+  245  git log
+  246  git log --oneline
+  247  vi SEREGA.txt
+  248  git status
+  249  git add SEREGA.txt
+  250  git status
+  251  git stash
+  252  ls -l
+  253  git stash ls
+  254  git stash list
+  255  git stash pop
+  256  git commit -m "added file SEREGA + korobochka"
+  257  git log
+  258  git switch main
+  259  git log
+  260  git merge mytest
+  261  git log
+  262  git remote -v 
+  263  git push main
+  264  git push
+  265  git remote -v
+  266  git remote add upstream https://github.com/iohichu/260925.git
+  267  git remote -v
+  268  git fetch --all
+  269  git merge upstream/main 
+  270  ls -l
+  271  git log
+  272  vi SEREGA
+  273  git add SEREGA
+  274  git commit -m "sfeqrfgrc"
+  275  git log
+  276  git commit --amend
+  277  git log
+  278  ssh ec2-user@linux.itcareerhub.de
+  279  git init
+  280  exit
+  281  ssh ec2-user@linux.itcareerhub.de
+  282  et -e
+  283  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh C:\Users\ITshok\Desktop\ICH_!
+  284  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh C:\Users\ITshok\Desktop\ICH_!
+  285  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh C:\Users\ITshok\Desktop\ICH_!
+  286  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh "C:/Users/ITshok/Desktop/ICH_!"
+  287  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh "C:/Users/ITshok/Desktop/ICH_!"
+  288  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh "C:/Users/ITshok/Desktop/ICH_!"
+  289  ssh ec2-user@linux.itcareerhub.de
+  290  ssh ec2-user@linux.itcareerhub.de
+  291  ssh ec2-user@linux.itcareerhub.de
+  292  git clone git@github.com:lanovenkyi-web/07_10.git
+  293  git remote add upstream https://github.com/denyskopko/07_10.git
+  294  git remote add upstream https://github.com/denyskopko/07_10.git
+  295  cd 07_10
+  296  git remote add upstream https://github.com/denyskopko/07_10.git
+  297  git remote -v
+  298  git checkout -b issue_privat
+  299  mkdir 010825-ptm_privat
+  300  git add .
+  301  git status
+  302  touch 010825-ptm_privat/SEREGA
+  303  git status
+  304  git add .
+  305  git status
+  306  git commit "vypolnenie zadachi"
+  307  git commit -m "vypolnenie zadachi i sozdanie file"
+  308  git push -u origin issue_privat
+  309  ls -la
+  310  rm -rf 010825-ptm_privat
+  311  git status
+  312  git add .
+  313  git commit -m "исправление ошибок"
+  314  git checkout main
+  315  git merge issue_privat 
+  316  ls -la
+  317  git fetch upstream
+  318  git merge upstream/main
+  319  git branch
+  320  ls la
+  321  ls -la
+  322  ls 010825-ptm
+  323  cd 010825-ptm
+  324  touch 1.txt
+  325  git add .
+  326  git commit -m "добавил файл в чужую папку"
+  327  git push
+  328  git fetch upstream
+  329  git marge upstream/main
+  330  ls -la
+  331  git merge upstream/main
+  332  ls -la
+  333  echo "# -Repository-for-Linux-HomeWork-" >> README.md
+  334  git init
+  335  git add README.md
+  336  git commit -m "first commit"
+  337  git branch -M main
+  338  git remote add origin git@github.com:lanovenkyi-web/-Repository-for-Linux-HomeWork-.git
+  339  git push -u origin main
+  340  echo "# Repository-for-Linux-HomeWork-" >> README.md
+  341  git init
+  342  git add README.md
+  343  git commit -m "first commit"
+  344  git branch -M main
+  345  git remote add origin git@github.com:lanovenkyi-web/Repository-for-Linux-HomeWork-.git
+  346  git push -u origin main
+  347  echo "# GitHub." >> README.md
+  348  git init
+  349  git add README.md
+  350  git commit -m "first commit"
+  351  git branch -M main
+  352  git remote add origin git@github.com:lanovenkyi-web/GitHub..git
+  353  git push -u origin main
+  354  touch .gitignore
+  355  git add .
+  356  git commit -m "add file .gitignore"
+  357  git push
+  358  git clone https://github.com/lanovenkyi-web/GitHub..git
+  359  echo "# GitHub" >> README.md
+  360  git init
+  361  git add README.md
+  362  git commit -m "first commit"
+  363  git branch -M main
+  364  git remote add origin git@github.com:lanovenkyi-web/GitHub.git
+  365  git push -u origin main
+  366  touch .gitignore
+  367  git add .
+  368  git commit -m "add file .gitignore"
+  369  git push
+  370  git clone https://github.com/lanovenkyi-web/GitHub.git
+  371  git fetch 
+  372  git merge origin/main  
+  373  git checkout feature
+  374  git checkout feature
+  375  cd GitHub
+  376  git checkout feature
+  377  git checkout -b feature
+  378  vi .gitignore
+  379  git commit -m "edited fffile .gitignore"
+  380  git add .
+  381  git push
+  382  git push upstream -u origin feature
+  383  git push upstream -u origin feature
+  384  git push upstream -u feature
+  385  git push origin feature
+  386  git commit --amend 
+  387  git switch main 
+  388  git merge feature 
+  389  history > history.txt
+  390  git add .
+  391  git commit -m "add file history"
+  392  git push
+  393  winget install --id GitHub.cli
+  394  winget install --id GitHub.cli
+  395  winget install --id GitHub.cli
+  396  gh --version
+  397  history > SEREGA_history.txt
