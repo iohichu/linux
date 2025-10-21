@@ -1,0 +1,249 @@
+    1  cd
+    2  cd ..
+    3  cd
+    4  [200~ec2-user@linux.itcareerhub.de~
+    5  ec2-user@linux.itcareerhub.de
+    6  C:\ Users\ITshok>scp ec2-user@linux.itcareerhub.de
+    7  C:\Users\ITshok>scp ec2-user@linux.itcareerhub.de
+    8  ec2-user@linux.itcareerhub.de
+    9  C:\Users\ITshok>scp ec2-user@linux.itcareerhub.de
+   10  scp
+   11  cd
+   12  ls
+   13  ssh-keygen
+   14  cat .ssh/id_ed25519.pub
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17  ssh ec2-user@linux.itcareerhub.de
+   18  ssh ec2-user@linux.itcareerhub.de
+   19  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/kivi/1.txt .
+   20  ls
+   21  pwd
+   22  /ort/010825-ptm/for_all
+   23  ec2-user@linux.itcareerhub.de
+   24  exit
+   25  cd
+   26  pwd
+   27  ls
+   28  ls -l
+   29  ec2-user@ip-10-0-42-153
+   30  ec2
+   31  ssh
+   32  ssh ec2
+   33  ssh ec2-user@linux.itcareerhub.de
+   34  ssh ec2-user@linux.itcareerhub.de
+   35  ssh ec2-user@linux.itcareerhub.de+
+   36  ssh ec2-user@linux.itcareerhub.de
+   37  ssh ec2-user@linux.itcareerhub.de
+   38  ssh ec2-user@linux.itcareerhub.de
+   39  cd ..
+   40  ls
+   41  ls -a
+   42  cd ./
+   43  ls
+   44  ls -a
+   45  cat ../
+   46  cd ../
+   47  ls
+   48  ls -a
+   49  cd ..
+   50  cd
+   51  cd /c/IT CareerHub/Linux
+   52  cd /c/ITCareerHub/Linux
+   53  echo "# test_repo" >> README.md
+   54  ls -a
+   55  ls -la
+   56  git init
+   57  ls -la
+   58  tree .git
+   59  tree
+   60  ls -la .git
+   61  md5sum README.md
+   62  git status
+   63  git add README,md
+   64  git add README.md
+   65  git status
+   66  git commit -m "first commit"
+   67  git config --global user.email "kirillvigutov@gmail.com"
+   68  git config --global user.name "KiviPY"
+   69  git commit -m "first commit"
+   70  git status
+   71  git log
+   72  git log --oneline
+   73  git branch -M main
+   74  git branch
+   75  git branch -M kirill
+   76  git branch -M main
+   77  git remote add origin git@github.com:KiviPY/test_repo.git
+   78  git remote -v
+   79  git push -u origin main
+   80  cat ~/.ssh/id_ed25519.pub
+   81  git push -u origin main
+   82  nano README.md
+   83  git status
+   84  git commit -m "first commit"
+   85  touch passwords.txt
+   86  git status
+   87  git add REAADME.md
+   88  git status
+   89  git add README.md
+   90  git status
+   91  rm passwords.txt
+   92  git status
+   93  touch passwords.txt
+   94  git status
+   95  git commit -m "modified: README.md"
+   96  git log
+   97  git log --oneline
+   98  git push
+   99  git clone git@github.com:KiviPY/git-branch.git
+  100  git clone git@github.com:KiviPY/git-branch.git
+  101  ls
+  102  cd git-branch
+  103  ls
+  104  git clone git@github.com:KiviPY/git-branch.git
+  105  ls
+  106  ls -l
+  107  cd git-branch
+  108  ls -l
+  109  ls
+  110  vi .gitingore
+  111  git status
+  112  git add .gitignore
+  113  git add .gitingore
+  114  git commit -m "added gitingore"
+  115  git status
+  116  git push origin gitingore
+  117  git push origin gitignore
+  118  git push origin gitignore
+  119  vi .gitignore
+  120  git status
+  121  git add .gitignore
+  122  git commit -m "added gitignore"
+  123  git push origin gitignore
+  124  cd git-branch
+  125  ls
+  126  ls -l
+  127  vi .gitignore
+  128  git add .gitignore
+  129  git add .gitignore
+  130  git checkout -b gitignore
+  131  vi .gitignore
+  132  git status
+  133  git add .gitignore
+  134  git commit -m "added gitignore"
+  135  git push origin gitignore
+  136  ssh ec2-user@linux.itcareerhub.de
+  137  [200~
+  138  ssh ec2-user@linux.itcareerhub.de
+  139  ssh ec2-user@linux.itcareerhub.de
+  140  ssh ec2-user@linux.itcareerhub.de
+  141  ssh ec2-user@linux.itcareerhub.de
+  142  echo "# 12_hw_repo" >> README.md
+  143  git init
+  144  git add README.md
+  145  git commit -m "first commit"
+  146  git branch -M main
+  147  git remote add origin git@github.com:KiviPY/12_hw_repo.git
+  148  git push -u origin main
+  149  git checkout -b feature
+  150  echo "Надеюсь все правильно" >> README.md
+  151  echo "что-то там" >> gitignore
+  152  git add README.md .gitignore
+  153  git commit -m "Добавлены изменения в README и gitignore"
+  154  git clone git@github.com:KiviPY/12_hw_repo.git
+  155  cd 12_hw_repo
+  156  echo "Надеюсь все правильно" > README.md
+  157  echo "Еще какой-то тексt" > .gitignore
+  158  git add README.md .gitignore
+  159  echo "# 12_hw_repo" >> README.md
+  160  git init
+  161  git add README.md
+  162  git commit -m "first commit"
+  163  git branch -M main
+  164  git remote add origin git@github.com:KiviPY/12_hw_repo.git
+  165  git push -u origin main
+  166  git commit -m "first commit"
+  167  git clone git@github.com:KiviPY/12_hw_repo.git
+  168  git commit -m "first commit"
+  169  git init
+  170  git clone git@github.com:KiviPY/12_hw_repo.git
+  171  # Создаём README.md и .gitignore
+  172  echo "Надеюсь все правильно" > README.md
+  173  echo "что-то еще" > .gitignore
+  174  git add README.md .gitignore
+  175  git commit -m "first commit"
+  176  git branch -m Main
+  177  git branch -m main
+  178  git remote ass origin git@github.com:KiviPY/12_hw_repo.git
+  179  git remote add origin git@github.com:KiviPY/12_hw_repo.git
+  180  git push -u origin main
+  181  git push -u origin Main
+  182  git checkout -b feature
+  183  echo "Какие то изменения для feature" >> README.md
+  184  echo "что-то дополнить сюда" >> .gitignore
+  185  git add README.md .gitignore
+  186  git commit -m "Изменения в README and gitignore"
+  187  git commit --amend -m "Изменения в README и gitignore (ammend)"
+  188  git checkout main
+  189  git merge feature
+  190  history > history.txt
+  191  git add history.txt
+  192  git push origin main
+  193  ssh ec2-user@linux.itcareerhub.de
+  194  git clone KiviPY/learning_git
+  195  git clone git@github.com:KiviPY/learning_git.git
+  196  mkdir C:\IT CareerHub\Linux/010825-ptm
+  197  mkdir C:\IT CareerHub\Linux\010825-ptm
+  198  mkdir /IT CareerHub/Linux/010825-ptm
+  199  mkdir 010825-ptm
+  200  ls -l
+  201  touch 010825-ptm/kirill_vigutov.txt
+  202  cd 010825-ptm
+  203  ls -l
+  204  cd
+  205  git add 010825-ptm/kiril.txt
+  206  git commit -m "Добавлен файл в папку 010825-ptm"
+  207  git branch -m main
+  208  git clone git@github.com:KiviPY/learning_git.git
+  209  cd 010825-ptm
+  210  ls -l
+  211  cd
+  212  git add 010825-ptm/kirill
+  213  git add /010825-ptm/kirill
+  214  git add 010825-ptm/kirill
+  215  echo "kirill" > 010825-ptm/kirill.txt
+  216  git add 010825-ptm/kirill.txt
+  217  git commit -m "file was added to dir 01085-ptm"
+  218  git push origin ,ain
+  219  git push origin main
+  220  git checkout -b feature/kirill
+  221  git checkout -b feature_kirill
+  222  git push -u origin feature_kirill
+  223  git push -u origin feature_kirill
+  224  git branch -vv
+  225  git push -u origin feature_kirill --force
+  226  git remote -v
+  227  git remote add upstream https://github.com/it-career-hub/learning_git.git
+  228  git remote -v
+  229  git status
+  230  git add 010825-ptm/kirill_vigutov.txt
+  231  git commit -m "file kirill_vigutov.txt was added to dir - 010825-ptm"
+  232  git push -u origin feature_kirill
+  233  git status
+  234  git branch -m main
+  235  git push origin main
+  236  ssh ec2-user@linux.itcareerhub.de
+  237  ssh ec2-user@linux.itcareerhub.de
+  238  gh --version
+  239  git config --list
+  240  remote.upstream.fetch=+refs/heads/*:refs/remotes/upstream/*
+  241  (END)
+  242  remote.upstream.fetch=+refs/heads/*:refs/remotes/upstream/*
+  243  (END)
+  244  gh auth refresh -h github.com -s delete_repo
+  245  git auth refresh -h github.com -s delete_repo
+  246  winget install --id GitHub.cli
+  247  gh --version
+  248  --id GitHub.cli
+  249  history > kirill_history.txt
