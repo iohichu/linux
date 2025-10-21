@@ -1,0 +1,225 @@
+    1  git version
+    2  cd
+    3  ssh-keygen
+    4  cat .ssh/id_ed25519.pub
+    5  ssh ec2-user@linux.itcareerhub.
+    6  ssh ec2-user@linux.itcareerhub.de
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/albert_gaskarov/file.txt .
+   10  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/albert_gaskarov/file.txt ./downloads
+   11  ls -al
+   12  ssh ec2-user@linux.itcareerhub.de
+   13  ec2-user@linux.itcareerhub.de
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  cat .ssh/id_ed2519.pub
+   16  cat .ssh/id_ed25519.pub
+   17  ls -a .ssh
+   18  cd
+   19  cat .ssh/id_ed25519.pub
+   20  ssh ec2-user@linux.itcareerhub.de
+   21  cat .ssh/id_ed25519.pub
+   22  ssh ec2-user@linux.itcareerhub.de
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  top
+   25  ls -l
+   26  top
+   27  ssh ec2-user@linux.itcareerhub.de
+   28  ssh ec2-user@linux.itcareerhub.de
+   29  ssh ec2-user@linux.itcareerhub.de
+   30  pwd
+   31  mkdir -p tetris
+   32  cd tetris
+   33  ls
+   34  ssp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/Kushnir_Yevhenii/tetris.sh .
+   35  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/Kushnir_Yevhenii/tetris.sh .
+   36  ssh ec2-user@linux.itcareerhub.de
+   37  echo "# test_repo" >> README.md
+   38  ls -la
+   39  git init
+   40  ls -la
+   41  tree .git
+   42  ls -la .git
+   43  md5sum README.md
+   44  md5sum README.md
+   45  md5sum README.md
+   46  git status
+   47  git add README.md
+   48  git status
+   49  git add .
+   50  git commit -m "first commit"
+   51  git config --global user.email "agskrv@gmail.com"
+   52  git config --global user.name "a-gskrv"
+   53  git commit -m "first commit"
+   54  git status
+   55  git log
+   56  git log --oneline
+   57  git branch
+   58  git branch -M main
+   59  git branch
+   60  git remote add origin git@github.com:a-gskrv/test_repo.git
+   61  git remote -v
+   62  git push -u origin main
+   63  nano README.md 
+   64  git status
+   65  touch passwords.txt
+   66  git status
+   67  git add README.md 
+   68  git status
+   69  git commit -m "modified README.txt"
+   70  git log
+   71  git push
+   72  git init
+   73  git add image.jpg 
+   74  git commit -m "Added photo"
+   75  git branch -M main
+   76  git remote add origin git@github.com:a-gskrv/git_intro.git
+   77  git push -u origin main
+   78  git logo
+   79  git log
+   80  ssh ec2-user@linux.itcareerhub.de
+   81  ssh ec2-user@linux.itcareerhub.de
+   82  cd /
+   83  cd /ich_kurs/git
+   84  cd /ICH_kurs/git
+   85  cd ICH_kurs
+   86  mkdir ReadmeAndIgnore
+   87  cd ReadmeAndIgnore
+   88  git rev-parse --show-toplevel
+   89  git init
+   90  date > 1.txt 2.txt
+   91  date > 2.txt
+   92  date >> 1.txt
+   93  git add .
+   94  git status
+   95  git rm --cached 1.txt
+   96  git status
+   97  git branch -M main
+   98  git remote origin git@github.com:a-gskrv/ReadmiAndIgnore.git
+   99  git remote add origin git@github.com:a-gskrv/ReadmiAndIgnore.git
+  100  git remote -v
+  101  git status
+  102  git commit -m "2.txt"
+  103  git log
+  104  git push -u origin main
+  105  git fetch all
+  106  git remote -v
+  107  git fetch --all
+  108  ls -la
+  109  git merge origin/main
+  110  git rebase origin/main
+  111  ls -la
+  112  git status
+  113  git push -u origin main
+  114  git log
+  115  git branch
+  116  git checkout -b gitignore
+  117  git status
+  118  git branch
+  119  git log
+  120  nano .gitignore
+  121  git status
+  122  git add .
+  123  git commit -m "add gitignore"
+  124  touch 12.bmp
+  125  git status
+  126  touch 13.jpg
+  127  git status
+  128  git branch
+  129  git log
+  130  git switch main
+  131  git --version
+  132  git branch
+  133  git log
+  134  git merge gitignore
+  135  ls -la
+  136  git status
+  137  git push
+  138  git branch -d gitignore
+  139  git log --oneline
+  140  git log --graph
+  141  git log --oneline --graph
+  142  git log --oneline --graph
+  143  git checkout 87d7516
+  144  git log
+  145  git status
+  146  ls -la
+  147  git checkout main
+  148  git log --oneline --graph
+  149  nano .gitignore
+  150  git add .
+  151  git commit -m "Changed .gitignore"
+  152  git push
+  153  git log --oneline --graph
+  154  cd /
+  155  mkdir c:/ICH_kurs/git/hugo_coder
+  156  cd c:/ICH_kurs/git/hugo_coder
+  157  git clone git@github.com:a-gskrv/hugo-coder.git
+  158  ls -al
+  159  ls -al hugo-coder/
+  160  cd hugo-coder/
+  161  git log
+  162  git log --oneline
+  163  git log --oneline --graph
+  164  cd ..
+  165  cd ..
+  166  git clone git@github.com:a-gskrv/testtt.git
+  167  cd testtt/
+  168  ls -la
+  169  git remote -v
+  170  git remote add upstream https://github.com/iohichu/testtt.git
+  171  git remote -v
+  172  git checkout -b test
+  173  date > albert.txt
+  174  git add .
+  175  git commit -m "Add file albert.txt"
+  176  git switch  main
+  177  git merge test
+  178  git push
+  179  git fetch upstream
+  180  git merge upstream/main
+  181  git log
+  182  git clone git@github.com:a-gskrv/git-branch.git
+  183  cd git-branch/
+  184  git checkout -b gitignore
+  185  vi .gitignore
+  186  git status
+  187  git add .gitignore 
+  188  git commit -m "Added .gitignore"
+  189  git push origin gitignore 
+  190  git log --graph
+  191  git log --graph
+  192  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen
+  193  scp -i ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen
+  194  scp -i ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  195  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  196  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen \cscp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen \ccd \
+  197  cd /
+  198  cd \IT
+  199  ls
+  200  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen \cscp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  201  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  202  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  203  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  204  scp -i ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  205  scp -i ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  206  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  207  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_managemen .
+  208  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  209  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  210  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management
+  211  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  212  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  213  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  214  scp -i ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  215  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .\Downloads
+  216  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .\Downloads\
+  217  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management ./Downloads/
+  218  cd ~
+  219  scp -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de:/opt/010825-ptn/albert/.process_management .
+  220  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  221  #!/bin/bash
+  222  USERNAME="a-gskrv"
+  223  REPOS=(   "testtt" )
+  224  for REPO in "${REPOS[@]}"; do   echo "Удаляю $USERNAME/$REPO...";   gh repo delete "$USERNAME/$REPO" --yes; done
+  225  history > albert_history.txt
