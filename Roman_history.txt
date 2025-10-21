@@ -1,0 +1,410 @@
+    1  ec2-user@linux.itcareerhub.de
+
+    2  cd
+    3  ssh-keygen
+    4  ssh-keygen .ssh/id_ed25519.pub
+    5  cat .ssh/id_ed25519.pub
+    6  ec2-user@linux.itcareerhub.de
+    7  ssh ec2-user@linux.itcareerhub.de
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  cd
+   10  ssh-keygen
+   11  ssh
+   12  cat .ssh/id_ed25519
+   13  ssh ec2-user@linux.itcareerhub.de
+   14  who
+   15  ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17  exit
+   18  
+   19  [200~ec2-user@linux.itcareerhub.de~
+   20  ssh ec2-user@linux.itcareerhub.de
+   21  ssh ec2-user@linux.itcareerhub.de
+   22  exit
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  exit
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  exit
+   27  echo "# test_repository" >> README.md
+   28  ls la
+   29  ls -la
+   30  git init
+   31  ls -la
+   32  ls -la .git
+   33  md5sum README.md
+   34  git status
+   35  git add .
+   36  git status
+   37  git connit -m "first commit"
+   38  git commit -m "first commit"
+   39  git config --global user.email "roman.sergatiy@gmail.com"
+   40  git config --global user.name "Roman-cloud25"
+   41  git status
+   42  git commit -m "first commit"
+   43  git status
+   44  git log
+   45  git branch
+   46  git branch -M main
+   47  git remote add origin git@github.com:Roman-cloud25/test_repository.git
+   48  git remote -v
+   49  git push -u origin main
+   50  nano readme.md
+   51  git log
+   52  git push
+   53  exit
+   54  ssh ec2-user@linux.itcareerhub.de
+   55  exit
+   56  tree
+   57  ssh ec2-user@linux.itcareerhub.de
+   58  exit
+   59  ssh ec2-user@linux.itcareerhub.de
+   60  ls
+   61  cd /Documets
+   62  cd Documets
+   63  tree
+   64  ls 
+   65  ls -l
+   66  pwd
+   67  cd music
+   68  cd ..
+   69  pwd
+   70  cd documents
+   71  ls
+   72  cd git
+   73  mkdir git_intro
+   74  ls
+   75  mv github-cover.jpg /git_intro
+   76  cp github-cover.jpg /git_intro
+   77  sudo mv github-cover.jpg /git_intro
+   78  ls -la
+   79  chmod u+rwx github-cover.jpg
+   80  ls -la
+   81  chmod a+rwx github-cover.jpg
+   82  ls -la
+   83  pwd
+   84  cp /c/Users/ICH/Documets/git ./github-cover.jpg
+   85  pwd
+   86  ls -la
+   87  cd git_intro
+   88  ls -la
+   89  git init
+   90  git add github-cover.jpg
+   91  git comit -m "Added github-cover"
+   92  git commit -m "Added github-cover"
+   93  git branch -m main
+   94  git remote add origin git@github.com:Roman-cloud25/git_intro.git
+   95  git remote -v
+   96  git push -u origin main
+   97  git pull origin main --rebase
+   98  git push -u origin main
+   99  git status
+  100  clear
+  101  cd .
+  102  cd ..
+  103  cd ..
+  104  cd /git
+  105  cd git
+  106  ls -la
+  107  cd test_repository/
+  108  cd..
+  109  cd ..
+  110  rm github-cover.ipg
+  111  git rev-parse -- show-toplevel
+  112  cd test_repository/
+  113  git rev-parse -- show-toplevel
+  114  touch 1.txt ; 2.txt && data > 1.txt ; 2.txt
+  115  touch 1.txt 2.txt && data > 1.txt 2.txt
+  116  touch 1.txt 2.txt && date > 1.txt 2.txt
+  117  touch 1.txt ; 2.txt && date > 1.txt ; 2.txt
+  118  touch 1.txt 2.txt && date > 1.txt ; 2.txt
+  119  touch 1.txt 2.txt && date > 1.txt && date > 2.txt
+  120  cat 1.txt
+  121  cat 2.txt
+  122  nano .gitignore
+  123  touch 555.bmp
+  124  git switch
+  125  git switch main
+  126  git checkout main
+  127  git log
+  128  git merge gitignore
+  129  cd..
+  130  cd ..
+  131  mkdir test
+  132  git clone git@github.com:Roman-cloud25/testtt.git
+  133  ls -la
+  134  git remove -v
+  135  git remote -v
+  136  cd testtt
+  137  git remote -v
+  138  git remote add upstream https://github.com/iohichu/testtt.git
+  139  git remote -v
+  140  git checkout -b test
+  141  touch new.txt
+  142  git add
+  143  git commit -m "add new.txt"
+  144  git add new.txt
+  145  git commit -m "add new.txt"
+  146  push -u origin main
+  147  git push -u origin main
+  148  git switch main 
+  149  gite merge test
+  150  git merge test
+  151  git push
+  152  git fetch upstream
+  153  git merge upstream/main
+  154  ssh ec2-user@linux.itcareerhub.de
+  155  scp ssh ec2-user@linux.itcareerhub.de:/home/ec2-user/opt/learning_git/010825-ptm/Roman/permission_checker.sh /c/Users/Roman/Downloads/
+  156  scp ssh ec2-user@linux.itcareerhub.de:/home/ec2-user/opt/learning_git/010825-ptm/Roman/permission_checker.sh /c/Users/Roman/Desktop/
+  157  scp ssh ec2-user@linux.itcareerhub.de:/home/ec2-user/opt/learning_git/010825-ptm/Roman/permission_checker.sh C:\Users\ICH\Desktop
+  158  scp ssh ec2-user@linux.itcareerhub.de:/home/ec2-user/opt/learning_git/010825-ptm/Roman/permission_checker.sh /c/Users/ICH/Desktop
+  159  exit
+  160  ssh ec2-user@linux.itcareerhub.de
+  161  mkdir 07_10
+  162  cd /07_10
+  163  cd 07_10
+  164  echo "# 07_10" >> README.md
+  165  git init
+  166  git add README.md
+  167  git commit -m "first commit"
+  168  git branch -M main
+  169  git remote add origin git@github.com:Roman-cloud25/07_10.git
+  170  git push -u origin main
+  171  cd ..
+  172  rm -rf 07_10
+  173  git clone git@github.com:Roman-cloud25/07_10.git
+  174  cd 07_10
+  175  git remote add upstream https://github.com/denyskopko/07_10.git
+  176  git remote -v 
+  177  git chekout -b issue_1
+  178  git checkout -b issue_1
+  179  mkdir 010815-ptm
+  180  git status
+  181  git add
+  182  git add .
+  183  git status
+  184  touch 010815-ptm/ptm.txt
+  185  git status
+  186  git add .
+  187  git comit -m "выполненная задача №1 (создание папки) задача №2 (создание папки)"
+  188  git push -u origen mein
+  189  git push -u origin issue_1
+  190  ls -la
+  191  rm -rf 010815-ptm
+  192  git status
+  193  git add .
+  194  git commit
+  195  git commit -m "удал дириктоию"
+  196  git checkout main
+  197  git fetch upstream
+  198  git merge upstream/mein
+  199  git merge upstream/main
+  200  git fetch upstream
+  201  git merge upstream/main
+  202  ls -la
+  203  ls -l 010825-ptm/
+  204  exit
+  205  ssh ec2-user@linux.itcareerhub.de
+  206  pwd
+  207  cd /c/Users/ICH/Dokument
+  208  cd /c/Users/ICH/Dokuments
+  209  cd /c/Users/ICH/Dokuments/GIT
+  210  ls /c/Users/ICH/Dokuments
+  211  pwd
+  212  cd /c/Users/ICH/Documents
+  213  cd /c/Users/ICH/Documents/GIT
+  214  ls
+  215  mkdir git-branch
+  216  cd git-branch/
+  217  git init
+  218  git checkout -b gitignore
+  219  pwd
+  220  touch gitignore
+  221  nano gitignore
+  222  git add. gitignore
+  223  git commit -m "Add gitignore file"
+  224  git add origin https://github.com/Roman-cloud25/git-branch.git
+  225  git push -u origin gitignore
+  226  git status
+  227  exit
+  228  git clone https://github.com/Roman-cloud25/git-branch.git
+  229  pwd
+  230  cd /c/User/ICH/Documents/GIT
+  231  cd /c/User/ICH/Documents/
+  232  cd c/User/ICH/Documents/
+  233  cd User/ICH/Documents/
+  234  cd User
+  235  cd \user
+  236  cd с/User/ICH
+  237  cd /mnt/c
+  238  cd /c/User
+  239  cd /c/Users
+  240  cd /c/Users/ICH/GIT
+  241  cd /c/Users/
+  242  ls
+  243  cd /c/Users/ICH
+  244  ls
+  245  cd /c/Users/ICH/Documents
+  246  ls
+  247  cd /c/Users/ICH/Documents/GIT
+  248  ls
+  249  git clone https://github.com/Roman-cloud25/git-branch.git
+  250  ls
+  251  cd /c/Users/ICH/Documents/GIT/git-branch
+  252  git checkout -b gitignore
+  253  cat > .gitignore <<'EOF'
+  254  ### JetBrains template
+  255  ##  git config --global core.excludesfile .gitignore
+  256  ###
+  257  # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+  258  # read 
+  259  /src/main/resources/application.yml
+  260  *.iml
+  261  *.json
+  262  .idea/*
+  263  .idea/
+  264  out/
+  265  debug/
+  266  ## Plugin-specific files:
+  267  # IntelliJ
+  268  /out/
+  269  # mpeltonen/sbt-idea plugin
+  270  .idea_modules/
+  271  *.class
+  272  *.jar
+  273  *.war
+  274  *.ear
+  275  *.tmp
+  276  *.exe
+  277  thumbs.db
+  278  .DS_Store
+  279  *.log
+  280  test/
+  281  target/generated-sources/
+  282  target/
+  283  /.classpath
+  284  /.project
+  285  .settings/
+  286  #x-code
+  287  *.xcodeproj
+  288  ### JetBrains template
+  289  ##  git config --global core.excludesfile .gitignore
+  290  ###
+  291  # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+  292  # read 
+  293  /src/main/resources/application.yml
+  294  *.iml
+  295  *.json
+  296  .idea/*
+  297  .idea/
+  298  out/
+  299  debug/
+  300  ## Plugin-specific files:
+  301  # IntelliJ
+  302  /out/
+  303  # mpeltonen/sbt-idea plugin
+  304  .idea_modules/
+  305  *.class
+  306  *.jar
+  307  *.war
+  308  *.ear
+  309  *.tmp
+  310  *.exe
+  311  thumbs.db
+  312  .DS_Store
+  313  *.log
+  314  test/
+  315  target/generated-sources/
+  316  target/
+  317  /.classpath
+  318  /.project
+  319  .settings/
+  320  #x-code
+  321  *.xcodeproj
+  322  nano .gitignore 
+  323  git add .gitignore
+  324  git commit -m "Add .gitignore (example from aliaskov/bashscripts)"
+  325  git push -u origin gitignore
+  326  git remote -v
+  327  ssh -T git@github.com
+  328  git remote set-url origin git@github.com:Roman-cloud25/git-branch.git
+  329  git remote -v
+  330  git push -u origin gitignore
+  331  git branch
+  332  git branch -a
+  333  git status
+  334  git clone https://github.com/Roman-cloud25/security.git
+  335  cd ..
+  336  git clone https://github.com/Roman-cloud25/security.git
+  337  cat > .gitignore <<'EOF'
+  338  *.log
+  339  *.tar.gz
+  340  EOF
+  341  cat .gitignore
+  342  echo "# security" > readme.md
+  343  cat readme.md
+  344  git status
+  345  cd security
+  346  cat > .gitignore <<'A'
+  347  *.log
+  348  *.tag.gz
+  349  A
+  350  cat .gitignore
+  351  echo "# sercurity" > readme.md
+  352  cat readme.md
+  353  git status
+  354  git checkout -b feature
+  355  git add readme.md .gitignore
+  356  git commit - m "add readme and gitignore"
+  357  git commit -m "add readme and gitignore"
+  358  git push -u origin feature
+  359  git remove -v
+  360  git remote -v
+  361  git push -u origin feature
+  362  git remote set-url origin https://github.com/Roman-cloud25/security.git
+  363  git push -u origin feature
+  364  git remote -v
+  365  git remote set-url origin git@github.com:Roman-cloud25/security.git
+  366  git remote -v
+  367  git push -u origin feature
+  368  git commit --amend -m "add readme and gitignore +ammend"
+  369  git push origin feature --force-with-lease
+  370  git checkout main 
+  371  git checkout main
+  372  git branch -a
+  373  git checkout main -b
+  374  git checkout -b main
+  375  git pull origin main
+  376  git push -u origin main
+  377  git pull origin main
+  378  git merge feature 
+  379  git push origin main
+  380  git checkout main 
+  381  history > history.txt
+  382  nano history
+  383  nano history.txt
+  384  git add history.txt
+  385  git commit -m "add history of commands"
+  386  git push origin main
+  387  clone git@github.com:Roman-cloud25/learning_git.git
+  388  git clone git@github.com:Roman-cloud25/learning_git.git
+  389  cd ..
+  390  git clone git@github.com:Roman-cloud25/learning_git.git
+  391  cd learning_git
+  392  git checkout -b add-010825-ptm-Roman
+  393  mkdir -p 010825-ptm
+  394  echo "Roman" > 010825-ptm/Roman.txt
+  395  git add 010825-ptm/Roman.txt
+  396  git commit -m "created directory for groups 010825-ptm and add directory Roman"
+  397  git push -u origin add-010825-ptm-Roman
+  398  git commit --amend -m "created directory for groups 010825-ptm and add file Roman.txt"
+  399  git log --oneline -n 3
+  400  git push --force-with-lease
+  401  exit
+  402  ssh ec2-user@linux.itcareerhub.de
+  403  ssh ec2-user@linux.itcareerhub.de
+  404  ssh ec2-user@linux.itcareerhub.de
+  405  ssh ec2-user@linux.itcareerhub.de
+  406  [200~
+  407  scp ssh ec2-user@linux.itcareerhub.de:/opt/010825-ptm/roman/files_archive_date.tar.gz /c/Users/ICH/Desktop
+  408  histiry > Roman_history.txt
+  409  history > Roman_history.txt
