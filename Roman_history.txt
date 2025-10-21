@@ -1,4 +1,5 @@
     1  ec2-user@linux.itcareerhub.de
+
     2  cd
     3  ssh-keygen
     4  ssh-keygen .ssh/id_ed25519.pub
